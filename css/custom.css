@@ -1,0 +1,57 @@
+#wrapper {
+    width: 56%;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+
+.shortImg{
+    width: 190px;
+    height: 230px;
+}
+
+.shortImgPhone{
+    width: 60%;
+    height: 245px;
+}
+
+
+.picSpan{
+    float: left;
+    display: inline-block;
+    width: 30%;
+    /*border: 1px solid black;*/
+}
+
+.descSpan{
+    display: inline-block;
+    width: 69%;
+
+    /*border: 1px solid black;*/
+}
+
+
+
+
+/*Styles about ream more button*/
+.comment {
+
+    margin: 10px;
+}
+a.morelink {
+    color: #1b1e21;
+    text-decoration: #00A1E6;
+    outline: none;
+}
+.morecontent span {
+    display: none;
+
+}
+.priceCart{
+    display: block;
+    float: right;
+}
+
+.orderComplete{
+    margin: 0 auto;
+}
+
