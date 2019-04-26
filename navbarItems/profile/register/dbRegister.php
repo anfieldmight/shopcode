@@ -9,7 +9,7 @@ try {
         $arrEmails[]=$value['email'];
     }
     if (in_array($email ,$arrEmails)){
-        $_SESSION['messageFormError']= "User with this email Already exist.";
+        $_SESSION['messageFormError']= "Потребител с този имейл вече съществува.";
 
 
 
@@ -18,12 +18,12 @@ try {
 
         $stmt = $db->prepare($query);
         if ($stmt->execute([$firstName, $lastName, $password, $email, $phone, $address])) {
-            $_SESSION['loginMessage']= "Successful registration";
+            $_SESSION['loginMessage']= "Регистрацията успешна";
 
             header("Location: ../login/login.php");
 
         } else {
-            $_SESSION['messageFormError']= "Unsuccessful registration !!!";
+            $_SESSION['messageFormError']= "Неуспешна регистрация !!!";
         }
 
 

@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bucket</title>
+    <title>Регистрация</title>
     <link rel="stylesheet" href="../../../css/bootstrap.css">
     <link rel="stylesheet" href="../../../css/custom.css">
 </head>
 <body>
 <nav  class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="../../../index.php">HereBuy</a>
+    <a class="navbar-brand" href="../../../index.php">ЗакупиТук</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,22 +16,22 @@
     <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="../../../categories/personal_computers/personal_computer.php">Personal computers</a>
-                    <a class="dropdown-item" href="../../../categories/monitors/monitor.php">Monitors</a>
-                    <a class="dropdown-item" href="../../../categories/phones/phone.php">Phones</a>
-                    <a class="dropdown-item" href="../../../categories/laptops/laptop.php">Laptops</a>
+                    <a class="dropdown-item" href="../../../categories/personal_computers/personal_computer.php">Настолни Компютри</a>
+                    <a class="dropdown-item" href="../../../categories/monitors/monitor.php">Монитори</a>
+                    <a class="dropdown-item" href="../../../categories/phones/phone.php">Телефони</a>
+                    <a class="dropdown-item" href="../../../categories/laptops/laptop.php">Лаптопи</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../../bucket/bucket.php">Bucket</a>
+                <a class="nav-link" href="../../bucket/bucket.php">Кошница</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../profileUnsign/profileHome_frontend.php">My profile</a>
+                <a class="nav-link" href="../profileUnsign/profileHome_frontend.php">Моят профил</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../../aboutUs/aboutUs.php">About us</a>
+                <a class="nav-link" href="../../aboutUs/aboutUs.php">За нас</a>
             </li>
 
         </ul>
@@ -44,41 +44,41 @@
 
     <form method="post" id="formReg">
         <fieldset>
-            <legend>Register your new notebook</legend>
+            <legend>Нова регистрация</legend>
             <div id="message"><?= $_SESSION['messageFormError']; $_SESSION['messageFormError'] =''; ?></div>
             <div>
 
-                <input type="text" name="firstName" placeholder="FirstName" id="firstNameReg" value="<?= isset($_POST['firstName']) ? $_POST['firstName'] : '' ?>" required >
+                <input type="text" name="firstName" placeholder="Име" id="firstNameReg" value="<?= isset($_POST['firstName']) ? $_POST['firstName'] : '' ?>" required >
             </div>
             <div>
 
-                <input type="text" name="lastName" placeholder="LastName" id="lastNameReg" value="<?= isset($_POST['lastName']) ? $_POST['lastName'] : '' ?>" required >
+                <input type="text" name="lastName" placeholder="Фамилия" id="lastNameReg" value="<?= isset($_POST['lastName']) ? $_POST['lastName'] : '' ?>" required >
             </div>
             <div>
 
-                <input type="password" name="password" placeholder="Password" id="passwordReg"  required >
+                <input type="password" name="password" placeholder="Парола" id="passwordReg"  required >
             </div>
             <div>
 
-                <input type="password" name="confirm" placeholder="Confirm Password" id="confirmReg" required >
+                <input type="password" name="confirm" placeholder="Потвърди парола" id="confirmReg" required >
             </div>
             <div>
 
-                <input type="email" name="email" placeholder="Email" id="emailReg" value="<?= isset($_POST['email']) ? $_POST['email'] : '' ?>" required >
+                <input type="email" name="email" placeholder="Имейл" id="emailReg" value="<?= isset($_POST['email']) ? $_POST['email'] : '' ?>" required >
             </div>
             <div>
 
-                <input type="text" name="phone" placeholder="Phone" id="phoneReg" value="<?= isset($_POST['phone']) ? $_POST['phone'] : '' ?>" required >
+                <input type="text" name="phone" placeholder="Телефонен номер" id="phoneReg" value="<?= isset($_POST['phone']) ? $_POST['phone'] : '' ?>" required >
             </div>
             <div>
 
-                <textarea name="address" placeholder="Address" id="addressReg" required ><?= isset($_POST['address']) ? $_POST['address'] : ''?></textarea>
+                <textarea name="address" placeholder="Адрес" id="addressReg" required ><?= isset($_POST['address']) ? $_POST['address'] : ''?></textarea>
             </div>
 
 
             <div>
-                <button type="submit" name="submitReg">Register</button>
-                <button type="reset" name="resetReg">Clear!</button>
+                <button type="submit" name="submitReg">Регистрирай се</button>
+                <button type="reset" name="resetReg">Изчисти!</button>
             </div>
         </fieldset>
     </form>

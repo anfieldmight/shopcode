@@ -29,6 +29,37 @@
     /*border: 1px solid black;*/
 }
 
+.hiddenImage {
+    display: none;
+}
+
+.laptopsImages {
+    width: 250px;
+    height: 200px;
+}
+
+.monitorsImages {
+    width: 270px;
+    height: 210px;
+}
+
+.personal_computersImages {
+    width: 190px;
+    height: 230px;
+}
+
+.phonesImages{
+    width: 190px;
+    height: 230px;
+}
+.brandNameNav {
+    margin-right: 100px;
+}
+
+#navbarsExample04{
+    width: 200px !important;
+}
+
 
 
 

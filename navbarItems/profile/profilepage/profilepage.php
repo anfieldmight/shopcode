@@ -13,20 +13,21 @@ if(isset($_POST['submit'])){
     $sql="UPDATE users SET phone='".$_POST['phone']."', address='".$_POST['address']."' WHERE id='".$_SESSION['userId']."'";
 
     if ($db->query($sql)){
-      $_SESSION['saveChanges']="Successfully saved changes";
+      $_SESSION['saveChanges']="Промените запазени";
 
       $orderData = $db->query("SELECT * FROM users WHERE id = $userId;", PDO::FETCH_ASSOC);
       $value = $orderData->fetchAll(PDO::FETCH_ASSOC)[0];
     }else{
-      $_SESSION['saveChanges']="Can not save tasks";
+      $_SESSION['saveChanges']="Не успешно запазване";
     }
   } else {
-    $_SESSION['saveChanges']="NULL/Zero Value not allowed !";
+    $_SESSION['saveChanges']="Нулеви стойности не са позволени !";
   }
 
 }
 
 $orderIds = explode(", ", $value['orders']) ;
+$orderIds = array_unique($orderIds);
 array_pop($orderIds);
 
 include_once "profilepage_frontend.php";

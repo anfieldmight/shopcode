@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Complete Order</title>
+    <title>Довърши доставка</title>
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <link rel="stylesheet" href="../../css/custom.css">
 </head>
@@ -12,55 +12,55 @@
 
 <div id="wrapper">
 
-    <div class="orderComplete">Order Complete</div>
+    <div class="orderComplete">Поръчката записана</div>
     <br>
-    <div>Your order was successfully processed. We we connect you, via your phone number for additional information</div>
+    <div>Вашата поръчка беше обработена. Ще се свържем с вас по телефон или имейл за повече информация.</div>
 
     <table border="1px">
-        <tr><th>Personal Information</th></tr>
+        <tr><th>Лична информация</th></tr>
         <tr>
-            <td>Name: </td>
+            <td>Име: </td>
             <td><?= htmlspecialchars($value['first_name'])?></td>
         </tr>
         <tr>
-            <td>Last name: </td>
+            <td>Фамилия: </td>
             <td><?= htmlspecialchars($value['last_name'])?></td>
         </tr>
         <tr>
-            <td>Email:  </td>
+            <td>Имейл:  </td>
             <td><?= htmlspecialchars($value['email'])?></td>
         </tr>
         <tr>
-            <td>Phone:  </td>
+            <td>Телефон:  </td>
             <td><?= htmlspecialchars($value['phone'])?></td>
         </tr>
         <tr>
-            <td>Address: </td>
+            <td>Адрес: </td>
             <td><?= htmlspecialchars($value['address'])?></td>
         </tr>
     </table>
     <br>
     <table border="1px">
-        <tr><th>Order information</th></tr>
+        <tr><th>Поръчка</th></tr>
         <tr>
-            <td>Order Number</td>
+            <td>Номер на поръчката</td>
             <td><?= $value['id']?></td>
         </tr>
         <?php foreach ($orderedProductsForPrint as $product) :?>
             <tr>
-                <td>Product Name</td>
+                <td>Продукт</td>
                 <td><?= $product['header']?></td>
             </tr>
 
         <?php endforeach;?>
         <tr>
-            <td>Total Price: </td>
-            <td> <?= $value['total_price']?></td>
+            <td>Крайна цена: </td>
+            <td> <?= $value['total_price'] . ' лв'?></td>
         </tr>
 
     </table>
 
-    <a href="../../index.php">Go back to main page</a>
+    <a href="../../index.php">Върни се на Начална страница</a>
 
 </div>
 

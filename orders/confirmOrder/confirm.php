@@ -18,10 +18,6 @@ if (isset($_POST['submit']))
 {
     if (!empty($_POST['firstName'])&& !empty($_POST['lastName'])&& !empty($_POST['email'])&& !empty($_POST['phone'])&& !empty($_POST['address']))
     {
-
-
-
-
             if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
             {
                 //applying POST information
@@ -33,13 +29,13 @@ if (isset($_POST['submit']))
 
                 require_once "validateOrder.php";
             }else{
-                $_SESSION['messageFormError'] = "Invalid email type !";
+                $_SESSION['messageFormError'] = "Невалиден имейл !";
             }
 
 
 
     }else{
-        $_SESSION['messageFormError'] = "NULL/Zero Value not allowed !";
+        $_SESSION['messageFormError'] = "Нулеви стойности не са позволени !";
     }
 }
 

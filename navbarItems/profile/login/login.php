@@ -26,15 +26,15 @@ if (isset($_POST['loginLog'])){
 
                     exit;
                 }else{
-                    $_SESSION['loginMessage']="Wrong password!";
+                    $_SESSION['loginMessage']="Грешна парола!!";
                 }
             }else{
 
-                $_SESSION['loginMessage']="No such email!";
+                $_SESSION['loginMessage']="Не съществуващ имейл!";
             }
 
         }else{
-            $_SESSION['loginMessage']="Try again!!";
+            $_SESSION['loginMessage']="Опитай отново!";
         }
 
 

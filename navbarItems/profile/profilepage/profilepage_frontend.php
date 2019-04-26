@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bucket</title>
+    <title>Профилна страница</title>
     <link rel="stylesheet" href="../../../css/bootstrap.css">
     <link rel="stylesheet" href="../../../css/custom.css">
 </head>
 <body>
 <nav  class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="../../../index.php">HereBuy</a>
+    <a class="navbar-brand" href="../../../index.php">ЗакупиТук</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,22 +16,22 @@
     <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="../../../categories/personal_computers/personal_computer.php">Personal computers</a>
-                    <a class="dropdown-item" href="../../../categories/monitors/monitor.php">Monitors</a>
-                    <a class="dropdown-item" href="../../../categories/phones/phone.php">Phones</a>
-                    <a class="dropdown-item" href="../../../categories/laptops/laptop.php">Laptops</a>
+                    <a class="dropdown-item" href="../../../categories/personal_computers/personal_computer.php">Настолни Компютри</a>
+                    <a class="dropdown-item" href="../../../categories/monitors/monitor.php">Монитори</a>
+                    <a class="dropdown-item" href="../../../categories/phones/phone.php">Телефони</a>
+                    <a class="dropdown-item" href="../../../categories/laptops/laptop.php">Лаптопи</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../../bucket/bucket.php">Bucket</a>
+                <a class="nav-link" href="../../bucket/bucket.php">Кошница</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../profileUnsign/profileHome.php">My profile</a>
+                <a class="nav-link" href="../profileUnsign/profileHome.php">Моят профил</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../../aboutUs/aboutUs.php">About us</a>
+                <a class="nav-link" href="../../aboutUs/aboutUs.php">За нас</a>
             </li>
 
         </ul>
@@ -41,36 +41,36 @@
 
 
 <div id="wrapper">
-    <a href="../../../index.php?resetid=true" onclick="resetID()">Log out</a>
+    <a href="../../../index.php?resetid=true" onclick="resetID()">Излез от профила</a>
     <form method="post">
         <fieldset>
-            <legend>My delivery info</legend>
-            <div id="message"><?= $_SESSION['saveChanges']?></div>
+            <legend>Информация за доставка</legend>
+            <div id="message"><?= isset($_SESSION['saveChanges']) ? $_SESSION['saveChanges'] : '' ?></div>
             <?php $_SESSION['saveChanges'] = '' ?>
             <div>
-                Name: <?= $value['first_name']?>
+                Име: <?= $value['first_name']?>
             </div>
 
             <div>
-                Last name: <?= $value['last_name']?>
+                Фамилия: <?= $value['last_name']?>
             </div>
 
             <div>
-                Email: <?= $value['email']?>
+                Имейл: <?= $value['email']?>
             </div>
 
             <div>
-                <label for="phone">Phone: </label>
-                <input  type="text" name="phone" placeholder="Phone number" id="phone" value="<?= $value['phone']?>" required >
+                <label for="phone">Телефон: </label>
+                <input  type="text" name="phone" placeholder="Телефонен номер" id="phone" value="<?= $value['phone']?>" required >
             </div>
             <div >
-                <label for="address">Address: </label>
-                <textarea name="address" placeholder="Enter your current address" id="address" required ><?= $value['address']?></textarea>
+                <label for="address">Адрес: </label>
+                <textarea name="address" placeholder="Настоящ адрес" id="address" required ><?= $value['address']?></textarea>
             </div>
 
 
             <div>
-                <button type="submit" name="submit">Update info</button>
+                <button type="submit" name="submit">Обнови информацията</button>
             </div>
         </fieldset>
     </form>

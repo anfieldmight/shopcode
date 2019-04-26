@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bucket</title>
+    <title>Кошница</title>
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <link rel="stylesheet" href="../../css/custom.css">
 </head>
 <body>
 <nav  class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="../../index.php">HereBuy</a>
+    <a class="navbar-brand" href="../../index.php">ЗакупиТук</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,22 +16,22 @@
     <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="../../categories/personal_computers/personal_computer.php">Personal computers</a>
-                    <a class="dropdown-item" href="../../categories/monitors/monitor.php">Monitors</a>
-                    <a class="dropdown-item" href="../../categories/phones/phone.php">Phones</a>
-                    <a class="dropdown-item" href="../../categories/laptops/laptop.php">Laptops</a>
+                    <a class="dropdown-item" href="../../categories/personal_computers/personal_computer.php">Настолни Компютри</a>
+                    <a class="dropdown-item" href="../../categories/monitors/monitor.php">Монитори</a>
+                    <a class="dropdown-item" href="../../categories/phones/phone.php">Телефони</a>
+                    <a class="dropdown-item" href="../../categories/laptops/laptop.php">Лаптопи</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="bucket.php">Bucket</a>
+                <a class="nav-link" href="bucket.php">Кошница</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../profile/profileUnsign/profileHome.php">My profile</a>
+                <a class="nav-link" href="../profile/profileUnsign/profileHome.php">Моят профил</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../aboutUs/aboutUs.php">About us</a>
+                <a class="nav-link" href="../aboutUs/aboutUs.php">За нас</a>
             </li>
 
         </ul>
@@ -53,11 +53,11 @@
                     $orderIds .= $value['category']."-".$value['id']. ", ";
                 ?>
                 <div>
-                    <span>Item : </span><span><?= $value['header']?></span>
+                    <span>Продукт : </span><span><?= $value['header']?></span>
                     <br>
-                    <span class="priceCart">Price : <span> <?= $value['price']?> $</span></span>
+                    <span class="priceCart">Цена : <span> <?= $value['price']?> лв</span></span>
                     <br>
-                    <span><a href="../../navbarItems/bucket/bucket.php?remove=true&type=<?= $value['category']?>&number=<?= $value['id']?>">Remove Item</a></span>
+                    <span><a href="../../navbarItems/bucket/bucket.php?remove=true&type=<?= $value['category']?>&number=<?= $value['id']?>">Премахни продукт</a></span>
                 </div>
 
                 <hr>
@@ -69,16 +69,16 @@
 
     <?php if(!empty($_SESSION['orderIds']) || !empty($_GET)) : ?>
         <div>
-            <span class="priceCart">Total Price: <?= $totalPrice?> $</span>
+            <span class="priceCart">Крайна Цена: <?= $totalPrice?> лв</span>
         </div>
         <br>
         <div>
-            <span class="priceCart"><a href="../../orders/confirmOrder/confirm.php">Confirm Order</a></span>
+            <span class="priceCart"><a href="../../orders/confirmOrder/confirm.php">Потвърди поръчка</a></span>
         </div>
     <?php else :?>
 
-        <div>Your bucket is empty. Hmm...</div>
-        <div><a href="../../index.php">Lets add something</a></div>
+        <div>Кошницата е празна.</div>
+        <div><a href="../../index.php">Добави продукти</a></div>
     <?php endif;?>
 
 </div>

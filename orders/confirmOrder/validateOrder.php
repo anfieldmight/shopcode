@@ -22,7 +22,7 @@ $query = "INSERT INTO `orders` (
 
 $stmt = $db->prepare($query);
 if ($stmt->execute([$firstName, $lastName, $email, $phone, $address, $orderIds, $totalPrice])) {
-    $_SESSION['message']= "Successful registration";
+    $_SESSION['message']= "Регистрацията успешна";
     $_SESSION['orderIds'] = [];
     $_SESSION['totalPrice'] = [];
     $_SESSION['allCartItems'] = [];
