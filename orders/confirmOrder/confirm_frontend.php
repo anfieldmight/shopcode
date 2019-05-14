@@ -51,7 +51,7 @@
         <fieldset>
             <legend>Завърши доставка</legend>
             <div id="message"><?= $_SESSION['messageFormError']?></div>
-            <?php if($_SESSION['userId']!=''): ?>
+            <?php if(isset($_SESSION['userId']) && $_SESSION['userId']!=''): ?>
                 <div>
                     <label for="firstName">Име: </label>
                     <input type="text" name="firstName" placeholder="Име" id="firstName" value="<?= $value['first_name'] ?>" required >
@@ -95,7 +95,7 @@
                 </div>
             <?php endif; ?>
             <div>
-                Крайна цена:<?= $totalPrice?> лв
+                Крайна цена:<?php if (!is_array($totalPrice)) echo $totalPrice ?> лв
             </div>
 
             <div>

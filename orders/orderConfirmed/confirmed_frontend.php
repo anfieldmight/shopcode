@@ -13,8 +13,7 @@
 <div id="wrapper">
 
     <div class="orderComplete">Поръчката записана</div>
-    <br>
-    <div>Вашата поръчка беше обработена. Ще се свържем с вас по телефон или имейл за повече информация.</div>
+    <div class="orderComplete">Вашата поръчка беше обработена. Ще се свържем с вас по телефон или имейл за повече информация.</div>
 
     <table border="1px">
         <tr><th>Лична информация</th></tr>
@@ -60,7 +59,7 @@
 
     </table>
 
-    <a href="../../index.php">Върни се на Начална страница</a>
+    <span class="priceCart biggerLinkButton"><a class="testit generalLink" href="../../index.php">Върни се на Начална страница</a></span>
 
 </div>
 

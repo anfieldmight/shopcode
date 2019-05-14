@@ -77,7 +77,7 @@
 
 
             <div>
-                <button type="submit" name="submitReg">Регистрирай се</button>
+                <button type="submit" name="submitReg">Регистрация</button>
                 <button type="reset" name="resetReg">Изчисти!</button>
             </div>
         </fieldset>

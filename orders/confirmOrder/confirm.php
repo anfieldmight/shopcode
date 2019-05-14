@@ -6,9 +6,11 @@ require_once "../../app.php";
     $orderIds = $_SESSION['orderIds'];
     $totalPrice = $_SESSION['totalPrice'];
     $_SESSION['messageFormError']='';
+if (empty($_SESSION['orderIds'])) {
+  header("Location: ../../index.php");
+}
 
-
-if($_SESSION['userId']!=''){
+if(isset($_SESSION['userId']) && $_SESSION['userId']!=''){
     $userId = $_SESSION['userId'];
     $orderData = $db->query("SELECT * FROM users WHERE id = $userId;", PDO::FETCH_ASSOC);
     $value = $orderData->fetchAll(PDO::FETCH_ASSOC)[0];

@@ -18,25 +18,17 @@ require_once "../../app.php";
 
 
 if (isset($_GET['remove'])){
-    //print_r($_GET);
     $category = $_GET['type'];
     $id = $_GET['number'];
-
     foreach ($allCartItems as $key1=>$item){
-        //print_r($item);
         foreach ($item as $key=>$value){
-            //echo "key=". $key . "value=".$value."///";
             if ($key == $category && $value == $id){
-                //print_r($allCartItems[$key1]);
                 unset($allCartItems[$key1]);
                 unset($_SESSION['allCartItems'][$key1]);
                 break 2;
             }
         }
     }
-
-
-
 }
     $totalPrice = 0;
     $orderIds = '';
@@ -59,24 +51,8 @@ if (isset($_GET['remove'])){
             if(($db->query("SELECT * FROM $key WHERE id=$value", PDO::FETCH_ASSOC)) !== false) {
               $data[] = $db->query("SELECT * FROM $key WHERE id=$value", PDO::FETCH_ASSOC);
             }
-
-//            foreach ($data as $item){
-//                foreach ($item as $value){
-//                    $orderIds .= $value['category']."-".$value['id']. " ";
-//                }
-//            }
         }
     }
-
-
-
-
-
-
-
-
-
-
 
 include_once "bucket_frontend.php";
 

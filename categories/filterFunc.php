@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=utf-8');
 $noMatch = '';
 if (isset($_POST['submitFilter'])){
     $activeFilters  = [];
@@ -15,14 +16,14 @@ if (isset($_POST['submitFilter'])){
     foreach ($activeFilters as $key =>$value){
         if ($key == 'price') {
             if ($value == '599') {
-                $sqlSelect .= $key . "<='" . $value . "'!!!";
+                $sqlSelect .= $key . "<=" . $value . "!!!";
             } elseif ($value == '600-1000') {
                 $value = explode("-", $value);
                 $min = $value[0];
                 $max = $value[1];
-                $sqlSelect .= $key . ">='" . $min . "' && " . $key . "<='" . $max . "'!!!";
+                $sqlSelect .= $key . ">=" . $min . " && " . $key . "<=" . $max . "!!!";
             } elseif ($value == '1001') {
-                $sqlSelect .= $key . ">='" . $value . "'!!!";
+                $sqlSelect .= $key . ">=" . $value . "!!!";
             }
         }elseif($key == "display"){
             if ($value == '4.9') {

@@ -27,8 +27,7 @@ if ($stmt->execute([$firstName, $lastName, $email, $phone, $address, $orderIds, 
     $_SESSION['totalPrice'] = [];
     $_SESSION['allCartItems'] = [];
     header("Location: ../orderConfirmed/confirmed.php");
-
 } else {
-    $_SESSION['messageFormError']= "Unsuccessful order registration !!!";
+    $_SESSION['messageFormError']= "Неуспешна регистрация на поръчката !!!";
 }
 

@@ -42,10 +42,10 @@
 
 <div id="wrapper">
 
-    <div id="">
+    <div class="centerItems">
         Не сте влезли във Вашият профил.
-        <a href="../register/register.php"><div id="linkForm">Регистрирай се</div></a>
-        <a href="../login/login.php"><div id="linkLogin">Влез в съществуващ профил</div></button></a>
+        <a href="../register/register.php" class="generalLink"><div class="profileButton" id="linkForm">Регистрирай се</div></a>
+        <a href="../login/login.php" class="generalLink"><div class="profileButton" id="linkLogin" >Влез в Профил</div></button></a>
     </div>
 </div>
 

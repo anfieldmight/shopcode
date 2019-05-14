@@ -53,11 +53,11 @@
                     $orderIds .= $value['category']."-".$value['id']. ", ";
                 ?>
                 <div>
-                    <span>Продукт : </span><span><?= $value['header']?></span>
+                    <span>Продукт : </span><span class="biggetText"><?= $value['header']?></span>
                     <br>
                     <span class="priceCart">Цена : <span> <?= $value['price']?> лв</span></span>
                     <br>
-                    <span><a href="../../navbarItems/bucket/bucket.php?remove=true&type=<?= $value['category']?>&number=<?= $value['id']?>">Премахни продукт</a></span>
+                    <span><a class="removeCartItem" href="../../navbarItems/bucket/bucket.php?remove=true&type=<?= $value['category']?>&number=<?= $value['id']?>">Премахни продукт</a></span>
                 </div>
 
                 <hr>
@@ -73,12 +73,12 @@
         </div>
         <br>
         <div>
-            <span class="priceCart"><a href="../../orders/confirmOrder/confirm.php">Потвърди поръчка</a></span>
+            <span class="priceCart biggerLinkButton"><a class="testit generalLink" href="../../orders/confirmOrder/confirm.php">Потвърди поръчка</a></span>
         </div>
     <?php else :?>
 
-        <div>Кошницата е празна.</div>
-        <div><a href="../../index.php">Добави продукти</a></div>
+        <div class="centerItems orderComplete">Кошницата е празна.</div>
+        <div class="addlinkButton"><a class="addProductLink" href="../../index.php" >Добави продукти</a></div>
     <?php endif;?>
 
 </div>

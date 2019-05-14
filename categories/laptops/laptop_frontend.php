@@ -43,54 +43,55 @@
 
 
 <div id="wrapper">
-
+    <div class="productHeading">
+        Оферти за Лаптоп
+    </div>
     <form method="post" action="laptop.php">
-        Производител:
-        <select name="make">
-            <option value ='0'> - select an option -</option>
+        Производител:<select name="make">
+            <option value ='0'> - избери опция -</option>
             <option value="HP">HP</option>
             <option value="Asus">Asus</option>
             <option value="Lenovo">Lenovo</option>
             <option value="Acer">Acer</option>
         </select>
         Процесор: <select name="processor">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="i3">i3</option>
             <option value="i5">i5</option>
             <option value="i7">i7</option>
             <option value="AMD">AMD</option>
         </select>
         RAM: <select name="RAM">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="4">4</option>
             <option value="6">6</option>
             <option value="8">8</option>
         </select><br><br>
         Хард диск: <select name="hd">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="500">500 GB</option>
             <option value="1000">1 TB</option>
             <option value="2000">2 TB</option>
         </select>
         Дисплей: <select name="display">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="15.6"> 15.6 </option>
             <option value="17">17</option>
             <option value="19"> 19 </option>
         </select>
         Цена: <select name="price">
-            <option value ='0'>- select an option -</option>
-            <option value="599"> < 600 $</option>
-            <option value="600-1000">600$ - 1000$</option>
-            <option value="1001"> > 1000$ </option>
+            <option value ='0'>- избери опция -</option>
+            <option value="599"> < 600 лв</option>
+            <option value="600-1000">600лв - 1000лв</option>
+            <option value="1001"> > 1000лв </option>
         </select>
         <input type="submit" name="submitFilter" value="Тръси">
         <input type="reset" name="resetFilter" value="Изчисти филтри">
-
     </form>
 
     <br>
-    Оферти за Лаптоп <br>
+
+    <br>
     <div> <?php echo $noMatch; ?></div>
     <?php foreach($data as $value): ?>
         <div class="shortView">
@@ -99,9 +100,9 @@
                 <a href="<?= "images/".$value['id']. "/2.jpg"?>" alt="laptop" class="shortImg laptopsImages" data-lightbox="<?='laptops' . $value['id'] ?>"><img src="<?= "images/".$value['id']. "/2.jpg"?>" alt="laptop" class="shortImg hiddenImage"></a>
             </div>
             <div class="descSpan">
-                <div><?= $value ['price']?>лв - <span><a href="../../navbarItems/bucket/bucket.php?<?php echo $value['category']."=".$value['id']?>">Добави в количката</a></span></div>
+                <div><?= $value ['price']?>лв - <span><a class="addToCartLink" href="../../navbarItems/bucket/bucket.php?<?php echo $value['category']."=".$value['id']?>">Добави в кошницата</a></span></div>
                 <span ><?= $value['header']; ?></span>
-                <div class="comment more"><?= $value['description']?></div>
+                <div class="comment more"><?= nl2br($value['description'])?></div>
 
             </div>
         </div>

@@ -76,37 +76,26 @@
     </form>
 
     <?php
-
-
         foreach ($orderIds as $oneId){
             $idData = $db->query("SELECT * FROM orders WHERE id = $oneId;", PDO::FETCH_ASSOC);
             $orderInformation = $idData->fetchAll(PDO::FETCH_ASSOC)[0];
             echo "<div><b>". "Order N:" . $oneId . "</b></div>";
             echo " <div>Order date : ". $orderInformation['create_date']."</div>";
-            //print_r($orderInformation);
             $productIds = $orderInformation['product_ids'];
             $productIds = explode(", ", $productIds);
             array_pop($productIds);
-
             foreach ($productIds as $value1){
                 $data = explode("-", $value1);
                 $category = $data[0];
                 $id = $data[1];
-
                 $data = $db->query("SELECT type FROM categories WHERE id = $category", PDO::FETCH_ASSOC);
                 $categoryProduct = $data->fetchAll(PDO::FETCH_ASSOC)[0]['type'];
-
                 $data = $db->query("SELECT * FROM $categoryProduct WHERE id = $id", PDO::FETCH_ASSOC);
                 $theProductData = $data->fetchAll(PDO::FETCH_ASSOC)[0];
-
                 echo "<div>". "Header:" . $theProductData['header'] . "</div>";
                 echo "<div>". "Price:" . $theProductData['price'] . "</div><hr>";
             }
-
         }
-
-
-
     ?>
 
 </div>

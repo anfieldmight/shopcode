@@ -50,7 +50,7 @@
      ?>
 
 
-    <form id="form" method="post">
+    <form id="form" method="post" class="customForm">
         <div id="loginMessage"><?php
         if(isset($_SESSION['loginMessage'])){
            echo $_SESSION['loginMessage'];
@@ -60,7 +60,6 @@
         $_SESSION['loginMessage']='' ?></div>
 
         <div>
-
             <input type="email" name="email" placeholder="Имейл" id="emailLog" required >
         </div>
         <div>

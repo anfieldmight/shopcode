@@ -44,7 +44,7 @@
 
     <div id="wrapper">
 
-        <div>
+        <div class="productHeading">
             Последни продукти
         </div>
 
@@ -74,16 +74,19 @@
                 <div class="shortView">
                     <div class="picSpan">
 <!--                        <img src="--><?//= "categories/".$category."/images/".$oneOfTwo['id'].".jpg"?><!--" alt="PCpic" class="shortImg">-->
-                        <a href="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/1.jpg"?>" alt="laptop" class="shortImg laptopsImages" data-lightbox="<?=$category . $oneOfTwo['id'] ?>"><img src="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/1.jpg"?>" alt="laptop" class="<?=$class_image_name?>"></a>
-                        <a href="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/2.jpg"?>" alt="laptop" class="shortImg laptopsImages" data-lightbox="<?=$category . $oneOfTwo['id'] ?>"><img src="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/2.jpg"?>" alt="laptop" class="shortImg hiddenImage"></a>
+                        <a href="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/1.jpg"?>" alt="laptop" class="shortImg laptopsImages" data-lightbox="<?=$category . $oneOfTwo['id'] ?>">
+                            <img src="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/1.jpg"?>" alt="laptop" class="<?=$class_image_name?>">
+                        </a>
+                        <a href="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/2.jpg"?>" alt="laptop" class="shortImg laptopsImages" data-lightbox="<?=$category . $oneOfTwo['id'] ?>">
+                            <img src="<?= "categories/".$category."/images/".$oneOfTwo['id']. "/2.jpg"?>" alt="laptop" class="shortImg hiddenImage">
+                        </a>
                     </div>
                     <div class="descSpan">
-                        <div><?= $oneOfTwo ['price']?>лв - <span><a href="navbarItems/bucket/bucket.php?<?php echo $oneOfTwo['category']."=".$oneOfTwo['id']?>">Добави в количката</a></span></div>
+                        <div><?= $oneOfTwo ['price']?>лв - <span><a class="addToCartLink" href="navbarItems/bucket/bucket.php?<?php echo $oneOfTwo['category']."=".$oneOfTwo['id']?>">Добави в кошницата</a></span></div>
                         <span ><?= $oneOfTwo['header']; ?></span>
-                        <div class="comment more"><?= $oneOfTwo['description']?></div>
+                        <div class="comment more"><?= nl2br($oneOfTwo['description'])?></div>
 
                     </div>
-
                 </div>
                 <br><br><br><br><br><hr>
             <?php endforeach;?>

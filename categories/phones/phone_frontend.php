@@ -44,31 +44,34 @@
 
 
 <div id="wrapper">
+    <div class="productHeading">
+        Оферти за телефон
+    </div>
     <form method="post" action="phone.php">
         Производител:
         <select name="make">
-            <option value ='0'> - select an option -</option>
+            <option value ='0'> - избери опция -</option>
             <option value="iPhone">iPhone</option>
             <option value="Samsung">Samsung</option>
             <option value="Sony">Sony</option>
             <option value="Huawei">Huawei</option>
         </select>
         Дисплей: <select name="display">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="4.9">< 5"</option>
             <option value="5-5.5">5" - 5.5""</option>
             <option value="5.6">> 5.5"</option>
 
         </select>
         Камера: <select name="camera">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="8">8 MP</option>
             <option value="13">13 MP</option>
             <option value="16">16 MP</option>
             <option value="20">20 MP</option>
         </select><br><br>
         RAM: <select name="RAM">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="1">1 GB</option>
             <option value="2">2 GB</option>
             <option value="3">3 GB</option>
@@ -76,7 +79,7 @@
             <option value="6">6 GB</option>
         </select>
         Memory: <select name="memory">
-            <option value ='0'>- select an option -</option>
+            <option value ='0'>- избери опция -</option>
             <option value="8"> 8 GB</option>
             <option value="16">16 GB</option>
             <option value="32"> 32 GB</option>
@@ -84,10 +87,10 @@
             <option value="128">128 GB</option>
         </select>
         Цена: <select name="price">
-            <option value ='0'>- select an option -</option>
-            <option value="599"> < 600$ </option>
-            <option value="600-1000">600$ - 1000$</option>
-            <option value="1001"> > 1000$ </option>
+            <option value ='0'>- избери опция -</option>
+            <option value="599"> < 600лв </option>
+            <option value="600-1000">600лв - 1000лв</option>
+            <option value="1001"> > 1000лв </option>
         </select>
         <input type="submit" name="submitFilter" value="Тръси">
         <input type="reset" name="resetFilter" value="Изчисти филтри">
@@ -95,7 +98,7 @@
     </form>
     <br>
 
-    Оферти за телефон <br>
+    <br>
     <div> <?php echo $noMatch; ?></div>
     <?php foreach($data as $value): ?>
         <div class="shortView">
@@ -104,9 +107,9 @@
                 <a href="<?= "images/".$value['id']. "/2.jpg"?>" alt="phones" class="shortImg laptopsImages" data-lightbox="<?='laptops' . $value['id'] ?>"><img src="<?= "images/".$value['id']. "/2.jpg"?>" alt="laptop" class="shortImg hiddenImage"></a>
             </div>
             <div class="descSpan">
-                <div><?= $value ['price']?>лв - <span><a href="../../navbarItems/bucket/bucket.php?<?php echo $value['category']."=".$value['id']?>">Добави в количката</a></span></div>
+                <div><?= $value ['price']?>лв - <span><a class="addToCartLink" href="../../navbarItems/bucket/bucket.php?<?php echo $value['category']."=".$value['id']?>">Добави в кошницата</a></span></div>
                 <span ><?= $value['header']; ?></span>
-                <div class="comment more"><?= $value['description']?></div>
+                <div class="comment more"><?= nl2br($value['description'])?></div>
 
             </div>
         </div>

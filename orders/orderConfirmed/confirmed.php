@@ -13,7 +13,7 @@ require_once "../../app.php";
     $value = $orderData->fetchAll(PDO::FETCH_ASSOC)[0];
     $orderId = $value['id'];
 
-    if ($_SESSION['userId']!=''){
+    if (isset($_SESSION['userId']) && $_SESSION['userId']!=''){
         $userId = $_SESSION['userId'];
 
         $orderData = $db->query("SELECT * FROM users WHERE id = $userId;", PDO::FETCH_ASSOC);

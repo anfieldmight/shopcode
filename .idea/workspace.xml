@@ -3,36 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="f82e3ee1-9c91-47b6-b114-359dece3933f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/laptops/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/laptops/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/filterFunc.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/filterFunc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/laptops/laptop_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/laptops/laptop_frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/monitors/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/monitors/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/monitors/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/monitors/images/4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/monitors/monitor_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/monitors/monitor_frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/1/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/categories/personal_computers/images/1/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/1/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/categories/personal_computers/images/1/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/2/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/categories/personal_computers/images/2/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/2/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/categories/personal_computers/images/2/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/4/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/categories/personal_computers/images/4/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/personal_computers/images/4/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/categories/personal_computers/images/4/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/personal_computers/personal_computer_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/personal_computers/personal_computer_frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/phones/images/8.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/phones/phone_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/phones/phone_frontend.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/showMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/showMore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbarItems/aboutUs/aboutUs_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbarItems/aboutUs/aboutUs_frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbarItems/bucket/bucket.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbarItems/bucket/bucket.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navbarItems/bucket/bucket_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbarItems/bucket/bucket_frontend.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navbarItems/profile/login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbarItems/profile/login/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navbarItems/profile/login/login_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbarItems/profile/login/login_frontend.php" afterDir="false" />
@@ -44,6 +30,7 @@
       <change beforePath="$PROJECT_DIR$/orders/confirmOrder/confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/orders/confirmOrder/confirm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders/confirmOrder/confirm_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/orders/confirmOrder/confirm_frontend.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders/confirmOrder/validateOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/orders/confirmOrder/validateOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/orderConfirmed/confirmed.php" beforeDir="false" afterPath="$PROJECT_DIR$/orders/orderConfirmed/confirmed.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders/orderConfirmed/confirmed_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/orders/orderConfirmed/confirmed_frontend.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +44,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/navbarItems/bucket/bucket_frontend.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="188" column="14" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orders/orderConfirmed/confirmed_frontend.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/categories/monitors/monitor_frontend.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="85" column="79" selection-start-line="85" selection-start-column="79" selection-end-line="85" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/categories/personal_computers/personal_computer_frontend.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="100" column="87" selection-start-line="100" selection-start-column="87" selection-end-line="100" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/categories/laptops/laptop_frontend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="124" column="39" lean-forward="true" selection-start-line="124" selection-end-line="125" />
+            <state relative-caret-position="1920">
+              <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -69,44 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_frontend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orders/confirmOrder/confirm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orders/orderConfirmed/confirmed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="1460">
+              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -124,36 +120,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>profile unsigned</find>
-      <find>Add to Cart</find>
-      <find>Load more</find>
-      <find>Camera</find>
-      <find>Processor</find>
-      <find>HD size</find>
-      <find>Price</find>
-      <find>Find now</find>
-      <find>Reset</find>
-      <find>&gt;$</find>
-      <find>&gt;$ -</find>
-      <find>Register your new notebook</find>
-      <find>$_SESSION['loginMessage']</find>
-      <find>No such email!</find>
-      <find>Successful registration</find>
-      <find>My delivery info</find>
-      <find>Successfully saved changes</find>
-      <find>Complete order</find>
-      <find>Complete purchase</find>
-      <find>Order Complete</find>
-      <find>Item :</find>
-      <find>Крайна Цена</find>
-      <find>Крайна цена</find>
-      <find>INSERT INTO users</find>
-      <find>UPDATE INTO</find>
-      <find>Go back to main page</find>
       <find>&lt;title&gt;Title</find>
       <find>Sign in to automatically fill out information</find>
       <find>Latest offers of each category</find>
       <find>Bucket</find>
+      <find>Добави продукти</find>
+      <find>linkButton</find>
+      <find>select an option</find>
+      <find>$totalPrice</find>
+      <find>$orderIds</find>
+      <find>600 $</find>
+      <find>&lt; 600</find>
+      <find>linkBu</find>
+      <find>Добави в количката</find>
+      <find>ko[nicata</find>
+      <find>600</find>
+      <find>Зареди повече</find>
+      <find>Премахни продукт</find>
+      <find>addProductLink</find>
+      <find>addlinkButton</find>
+      <find>priceCart</find>
+      <find>.profileButton</find>
+      <find>generalLink</find>
+      <find>biggerLinkButton</find>
+      <find>profileButton</find>
+      <find>addToCartLink</find>
+      <find>Поръчката записана</find>
+      <find>profile</find>
+      <find>Върни се на Начална страница</find>
+      <find>Кошницата е празна.</find>
+      <find>orderComplete</find>
     </findStrings>
     <replaceStrings>
       <replace>ЗакупиТук</replace>
@@ -172,6 +168,7 @@
       <replace>Цена</replace>
       <replace>Тръси</replace>
       <replace>Изчисти филтри</replace>
+      <replace>избери опция</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\wamp64\www\herebuy16.0418\navbarItems</dir>
@@ -201,36 +198,36 @@
         <option value="$PROJECT_DIR$/navbarItems/profile/profile.php" />
         <option value="$PROJECT_DIR$/categories/personal_computers/test.php" />
         <option value="$PROJECT_DIR$/navbarItems/profile/register/register.php" />
-        <option value="$PROJECT_DIR$/orders/orderConfirmed/confirmed.php" />
-        <option value="$PROJECT_DIR$/categories/personal_computers/personal_computer.php" />
         <option value="$PROJECT_DIR$/categories/laptops/laptop.php" />
         <option value="$PROJECT_DIR$/categories/monitors/monitor.php" />
         <option value="$PROJECT_DIR$/categories/phones/phone.php" />
-        <option value="$PROJECT_DIR$/app.php" />
-        <option value="$PROJECT_DIR$/categories/filterFunc.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/navbarItems/bucket/bucket.php" />
         <option value="$PROJECT_DIR$/navbarItems/profile/profileUnsign/profileHome.php" />
         <option value="$PROJECT_DIR$/navbarItems/aboutUs/aboutUs_frontend.php" />
         <option value="$PROJECT_DIR$/js/showMore.js" />
-        <option value="$PROJECT_DIR$/navbarItems/profile/login/login.php" />
-        <option value="$PROJECT_DIR$/orders/confirmOrder/validateOrder.php" />
-        <option value="$PROJECT_DIR$/navbarItems/profile/register/dbRegister.php" />
-        <option value="$PROJECT_DIR$/navbarItems/bucket/bucket_frontend.php" />
-        <option value="$PROJECT_DIR$/orders/confirmOrder/confirm.php" />
-        <option value="$PROJECT_DIR$/orders/orderConfirmed/confirmed_frontend.php" />
-        <option value="$PROJECT_DIR$/navbarItems/profile/profilepage/profilepage.php" />
         <option value="$PROJECT_DIR$/navbarItems/profile/profileUnsign/profileHome_frontend.php" />
         <option value="$PROJECT_DIR$/navbarItems/profile/login/login_frontend.php" />
         <option value="$PROJECT_DIR$/navbarItems/profile/register/register_frontend.php" />
-        <option value="$PROJECT_DIR$/navbarItems/profile/profilepage/profilepage_frontend.php" />
+        <option value="$PROJECT_DIR$/orders/orderConfirmed/confirmed.php" />
         <option value="$PROJECT_DIR$/orders/confirmOrder/confirm_frontend.php" />
+        <option value="$PROJECT_DIR$/orders/confirmOrder/confirm.php" />
+        <option value="$PROJECT_DIR$/categories/personal_computers/personal_computer.php" />
+        <option value="$PROJECT_DIR$/app.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/categories/filterFunc.php" />
+        <option value="$PROJECT_DIR$/navbarItems/bucket/bucket.php" />
+        <option value="$PROJECT_DIR$/orders/confirmOrder/validateOrder.php" />
+        <option value="$PROJECT_DIR$/navbarItems/profile/register/dbRegister.php" />
+        <option value="$PROJECT_DIR$/navbarItems/profile/login/login.php" />
+        <option value="$PROJECT_DIR$/navbarItems/profile/profilepage/profilepage.php" />
+        <option value="$PROJECT_DIR$/navbarItems/profile/profilepage/profilepage_frontend.php" />
+        <option value="$PROJECT_DIR$/categories/laptops/laptop_frontend.php" />
         <option value="$PROJECT_DIR$/categories/monitors/monitor_frontend.php" />
         <option value="$PROJECT_DIR$/categories/personal_computers/personal_computer_frontend.php" />
         <option value="$PROJECT_DIR$/categories/phones/phone_frontend.php" />
-        <option value="$PROJECT_DIR$/categories/laptops/laptop_frontend.php" />
         <option value="$PROJECT_DIR$/index_frontend.php" />
+        <option value="$PROJECT_DIR$/orders/orderConfirmed/confirmed_frontend.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/navbarItems/bucket/bucket_frontend.php" />
       </list>
     </option>
   </component>
@@ -254,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,6 +262,12 @@
               <item name="herebuy16.0418" type="b2602c69:ProjectViewProjectNode" />
               <item name="herebuy16.0418" type="462c0819:PsiDirectoryNode" />
               <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="herebuy16.0418" type="b2602c69:ProjectViewProjectNode" />
+              <item name="herebuy16.0418" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+              <item name="laptops" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="herebuy16.0418" type="b2602c69:ProjectViewProjectNode" />
@@ -290,10 +292,33 @@
               <item name="herebuy16.0418" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="herebuy16.0418" type="b2602c69:ProjectViewProjectNode" />
+              <item name="herebuy16.0418" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="herebuy16.0418" type="b2602c69:ProjectViewProjectNode" />
+              <item name="herebuy16.0418" type="462c0819:PsiDirectoryNode" />
+              <item name="navbarItems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="herebuy16.0418" type="b2602c69:ProjectViewProjectNode" />
+              <item name="herebuy16.0418" type="462c0819:PsiDirectoryNode" />
+              <item name="navbarItems" type="462c0819:PsiDirectoryNode" />
+              <item name="bucket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="herebuy16.0418" type="b2602c69:ProjectViewProjectNode" />
+              <item name="herebuy16.0418" type="462c0819:PsiDirectoryNode" />
+              <item name="navbarItems" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +328,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -366,28 +391,39 @@
       <workItem from="1550260956884" duration="58000" />
       <workItem from="1556273656223" duration="1786000" />
       <workItem from="1556275564973" duration="746000" />
-      <workItem from="1556277669562" duration="8585000" />
+      <workItem from="1556277669562" duration="13055000" />
+      <workItem from="1556356541537" duration="787000" />
+      <workItem from="1556386705281" duration="1714000" />
+      <workItem from="1556644652825" duration="669000" />
+      <workItem from="1556797962852" duration="4289000" />
+      <workItem from="1556872316449" duration="4967000" />
+      <workItem from="1556962751654" duration="4489000" />
+      <workItem from="1557043520068" duration="11598000" />
+      <workItem from="1557686112846" duration="2494000" />
+      <workItem from="1557688660502" duration="181000" />
+      <workItem from="1557855472674" duration="1136000" />
+      <workItem from="1557856904428" duration="2215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133558000" />
+    <option name="totallyTimeSpent" value="172567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3261105" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.23185265" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -410,9 +446,9 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/orders/confirmOrder/confirm.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/navbarItems/bucket/bucket.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -450,45 +486,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/categories/personal_computers/test.php" />
-    <entry file="file://$PROJECT_DIR$/js/showMore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/categories/monitors/monitor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/personal_computers/personal_computer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/laptops/laptop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/profileUnsign/profileHome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -499,20 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/bucket/bucket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="39" lean-forward="true" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/profileUnsign/profileHome_frontend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/navbarItems/aboutUs/aboutUs_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -520,174 +507,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/bucket/bucket_frontend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/lightbox2-master/lightbox2-master/dist/js/lightbox-plus-jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/lightbox-plus-jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/register/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/lightbox2-master/lightbox2-master/dist/js/lightbox-plus-jquery.js" />
+    <entry file="file://$PROJECT_DIR$/css/lightbox.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/categories/filterFunc.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/register/register_frontend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="66" column="67" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/login/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/login/login_frontend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/orderConfirmed/confirmed_frontend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/register/dbRegister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/confirmOrder/validateOrder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/confirmOrder/confirm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="220">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orders/orderConfirmed/confirmed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="308">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navbarItems/profile/profilepage/profilepage.php">
+    <entry file="file://$PROJECT_DIR$/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/confirmOrder/confirm_frontend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="47" column="97" selection-start-line="47" selection-start-column="97" selection-end-line="47" selection-end-column="97" />
+        <state>
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state>
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/laptops/laptop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/bucket/bucket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/confirmOrder/validateOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/confirmOrder/confirm_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="98" column="18" lean-forward="true" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/confirmOrder/confirm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/password/password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="200" column="9" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/register/dbRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/profileUnsign/profileHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/profilepage/profilepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/login/login_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/register/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/profileUnsign/profileHome_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="46" column="128" selection-start-line="46" selection-start-column="128" selection-end-line="46" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/profile/register/register_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/navbarItems/profile/profilepage/profilepage_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="101">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightbox2-master/lightbox2-master/dist/js/lightbox-plus-jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/categories/filterFunc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lightbox-plus-jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lightbox2-master/lightbox2-master/dist/js/lightbox-plus-jquery.js">
+    <entry file="file://$PROJECT_DIR$/categories/personal_computers/personal_computer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/lightbox.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/monitors/monitor_frontend.php">
+    <entry file="file://$PROJECT_DIR$/js/showMore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="105" column="60" selection-start-line="105" selection-start-column="60" selection-end-line="105" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/personal_computers/personal_computer_frontend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="96" column="19" selection-start-line="94" selection-start-column="24" selection-end-line="96" selection-end-column="19" />
+        <state relative-caret-position="400">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/categories/phones/phone_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="104" column="18" lean-forward="true" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        <state relative-caret-position="1980">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/monitors/monitor_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="85" column="79" selection-start-line="85" selection-start-column="79" selection-end-line="85" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/personal_computers/personal_computer_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="100" column="87" selection-start-line="100" selection-start-column="87" selection-end-line="100" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/categories/laptops/laptop_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="124" column="39" lean-forward="true" selection-start-line="124" selection-end-line="125" />
+        <state relative-caret-position="1920">
+          <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="1460">
+          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/orderConfirmed/confirmed_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        <state relative-caret-position="282">
+          <caret line="188" column="14" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbarItems/bucket/bucket_frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
         </state>
       </provider>
     </entry>
