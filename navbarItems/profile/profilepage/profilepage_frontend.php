@@ -41,7 +41,7 @@
 
 
 <div id="wrapper">
-    <a href="../../../index.php?resetid=true" onclick="resetID()">Излез от профила</a>
+    <div class="enterProfileDiv"><a class="enterProfile" href="../../../index.php?resetid=true" onclick="resetID()">Излез от профила</a></div>
     <form method="post">
         <fieldset>
             <legend>Информация за доставка</legend>
@@ -70,7 +70,7 @@
 
 
             <div>
-                <button type="submit" name="submit">Обнови информацията</button>
+                <button type="submit" name="submit">Обнови</button>
             </div>
         </fieldset>
     </form>
@@ -79,8 +79,8 @@
         foreach ($orderIds as $oneId){
             $idData = $db->query("SELECT * FROM orders WHERE id = $oneId;", PDO::FETCH_ASSOC);
             $orderInformation = $idData->fetchAll(PDO::FETCH_ASSOC)[0];
-            echo "<div><b>". "Order N:" . $oneId . "</b></div>";
-            echo " <div>Order date : ". $orderInformation['create_date']."</div>";
+            echo "<div><b>". "Поръчка N:" . $oneId . "</b></div>";
+            echo " <div><b>Дата на поръчка :</b> ". $orderInformation['create_date']."</div>";
             $productIds = $orderInformation['product_ids'];
             $productIds = explode(", ", $productIds);
             array_pop($productIds);

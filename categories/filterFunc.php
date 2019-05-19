@@ -61,7 +61,7 @@ if (isset($_POST['submitFilter'])){
     }
 
     if (empty($matches)){
-        $noMatch = "No matches";
+        $noMatch = "Няма резултати";
     }
 
 

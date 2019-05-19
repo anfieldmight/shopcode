@@ -42,8 +42,39 @@
 
 <div id="wrapper">
 
-    <div id="offersBox">
-        За нас
+    <div id="about-wrapper">
+        <div class="wellcome">Добре дошли уважаеми клиенти!</div>
+        <div class="infoText"><span class="nameItem">"ЗакупиТук"</span> е онлайн платформа за продажда на нова техника. Фимата е създадена през 2018 година и до този момент успя да зарадва хиляди клиенти из цялата страна.
+            Зад този проект стои млад и енергизиран екип от професионалисти. Всекидневно се стараем да ви предоставяме най-доброто качество спрямо цена, поднесено с внимание към детайла.
+        </div>
+        <div>
+            <center>
+            <img class="imgAbout" src="aboutus.jpg" alt="company" height="300" width="500">
+            </center>
+        </div>
+        <div class="connectUs">
+            <span style="font-size: 30px">Може да се свръжете с нас по следните начини:</span>
+            <br>
+            <img class="imgAbout" src="message.jpg" alt="company" height="60" width="60"><a class="linkAbout" href="mailto:nikolaat1@gmail.com">ЗакупиТук имейл</a><br>
+            <img class="imgAbout" src="phone.png" alt="company" height="60" width="60"><a class="linkAbout" href="tel:+359893270728">ЗакупиТук телефон</a>
+
+        </div>
+
+        <div class="connectUs">
+            <span style="font-size: 30px">Може да ни намерите тук:</span> <br>
+            <img class="imgAbout" src="map.jpg" alt="company" height="500" width="700"><br>
+
+        </div>
+
+        <div class="logos">
+            <div class="connectUs" style="font-size: 30px">Част от нашите партньори:</div><br>
+            <img class="imgAbout" src="acer.png" alt="company" height="250" width="250">
+            <img class="imgAbout" src="asus.jpg" alt="company" height="250" width="250">
+            <img class="imgAbout" src="hp.png" alt="company" height="250" width="250">
+            <img class="imgAbout" src="lg.png" alt="company" height="250" width="250">
+            <img class="imgAbout" src="econt_bg.png" alt="company" height="250" width="250">
+            <img class="imgAbout" src="speedy.jpg" alt="company" height="250" width="250">
+        </div>
     </div>
 </div>
 

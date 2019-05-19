@@ -59,7 +59,7 @@
 
     </table>
 
-    <span class="priceCart biggerLinkButton"><a class="testit generalLink" href="../../index.php">Върни се на Начална страница</a></span>
+    <span class="priceCart biggerLinkButton"><a class="testit generalLink" href="../../index.php">Върни се в Начало</a></span>
 
 </div>
 

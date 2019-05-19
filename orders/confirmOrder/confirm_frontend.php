@@ -42,10 +42,8 @@
 
 <div id="wrapper">
 
-
-    Довърши доставка
     <?php if(empty($_SESSION['userId'])):?>
-    <a href="../../navbarItems/profile/profileUnsign/profileHome.php">Влезте в съществуващ профил</a>
+    <div class="enterProfileDiv"><a class="enterProfile" href="../../navbarItems/profile/profileUnsign/profileHome.php">Влезте в съществуващ профил</a></div>
     <?php endif?>
     <form method="post" id="orderForm">
         <fieldset>

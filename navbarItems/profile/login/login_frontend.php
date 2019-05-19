@@ -54,6 +54,7 @@
         <div id="loginMessage"><?php
         if(isset($_SESSION['loginMessage'])){
            echo $_SESSION['loginMessage'];
+           $_SESSION['loginMessage'] = '';
         } else {
             echo '';
         }
